@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanner</title>
+</head>
+<body>
+    
+    <h1> Pubble-sheete Scanner </h1>  <hr> <br> <br>
+    
+    <form action="/" method="POST" enctype="multipart/form-data">
+
+        <input type="file" name="image"> <br><br>
+
+        <select name="direction">
+            <option value="ltr" selected> Left to Right </option>
+            <option value="rtl"> Right to Left </option>
+        </select> <br><br>
+
+        <input type="number" name="questions_number" placeholder="Questions Number" value="6"> <br><br>
+
+        <input type="number" name="choice_number" placeholder="Choices Number" min="0" value="4"><br> <br>
+
+        <input type="submit" value="Result">
+
+    </form>
+
+</body>
+</html>
